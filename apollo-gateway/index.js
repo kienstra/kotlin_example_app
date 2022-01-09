@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-const { ApolloServer, gql } = require('apollo-server');
+const { ApolloServer } = require('apollo-server');
 const {ApolloGateway} = require('@apollo/gateway')
 
 const gateway = new ApolloGateway({
